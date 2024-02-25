@@ -313,6 +313,9 @@ class _HomePageState extends State<HomePage> {
                       peremBackColor2 = Colors.black.withOpacity(0.1);
                       peremTextColor2 = const Color(0xff0560FA);
                       setState(() {});
+                      Future.delayed(const Duration(milliseconds: 250), () {
+                        Navigator.of(context).pushNamed('/sendpack');
+                      });
                     },
                     child: CardHomeWidget(
                       peremBackColor: peremBackColor2,

@@ -16,6 +16,9 @@ import 'pages/session_3/receipt_page.dart';
 import 'pages/session_3/send_a_package.dart';
 import 'pages/session_3/transaction_successful_page.dart';
 import 'pages/session_4/add_payment_method.dart';
+import 'pages/session_4/receipt_page1.dart';
+import 'pages/session_4/transaction_successful_page2_1.dart';
+import 'pages/session_4/transaction_successful_page_1.dart';
 import 'pages/session_4/wallet_page.dart';
 import 'pages/session_5/chats_page.dart';
 import 'pages/session_5/home_page.dart';
@@ -47,10 +50,13 @@ class MyApp extends StatelessWidget {
         '/profile': (context) => const ProfilePage(),
         '/sendpack': (context) => const SendPackage(),
         '/notification': (context) => const NotificationPage(),
-        // 4 session
-        '/wall': (context) => const WalletPage(),
         '/RoundedLoadingIndicator': (context) => RoundedLoadingIndicator(),
         '/transaction_succes': (context) => const TransactionSucces(),
+        // 4 session
+        '/receipt-page1': (context) => const ReceiptPage1(),
+        '/wall': (context) => const WalletPage(),
+        '/transaction_succes1': (context) => TransactionSucces1(),
+        '/transaction_succes2': (context) => const TransactionSucces2(),
         '/add_payment_method': (context) => const AddMethod(),
 
         // 5 session

@@ -68,7 +68,7 @@ class _TrakingPageState extends State<TrakingPage> {
                       buttonName: 'View Package Info',
                       buttonColor: const Color.fromRGBO(5, 69, 250, 1),
                       onTap: () {
-                        Navigator.pushNamed(context, '/receipt-page');
+                        Navigator.pushNamed(context, '/receipt-page1');
                       },
                     ),
                   ),
